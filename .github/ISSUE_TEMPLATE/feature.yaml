@@ -1,0 +1,68 @@
+name: Bug Report
+description: File a bug report
+labels: [bug]
+
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Title
+      description: What is the name of the feature?
+      placeholder: Enter the title here
+    validations:
+      required: true
+
+  - type: textarea
+    id: why
+    attributes:
+      label: Why
+      description: Explain the pupose of the feature
+      placeholder: ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Roles
+      description: What types of users interact with this feature
+      placeholder: ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: stories
+    attributes:
+      label: Stories
+      description: Tell us the user stories associate with this feature
+      placeholder: ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: pages
+    attributes:
+      label: Pages
+      description: Tell us what pages need to be created / changed
+      placeholder: ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: data
+    attributes:
+      label: Data
+      description: Tell us any information about how the data should be structured stored
+      placeholder: ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: data
+    attributes:
+      label: Design
+      description: Add images of any designs
+      placeholder: ...
+    validations:
+      required: false
+
