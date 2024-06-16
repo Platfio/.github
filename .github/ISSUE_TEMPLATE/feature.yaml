@@ -58,9 +58,9 @@ body:
       required: true
 
   - type: textarea
-    id: data
+    id: designs
     attributes:
-      label: Design
+      label: Designs
       description: Add images of any designs
       placeholder: ...
     validations:
