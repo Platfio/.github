@@ -1,5 +1,5 @@
-name: Bug Report
-description: File a bug report
+name: Fix
+description: File a bug report or UI convention fix here
 labels: [bug]
 
 body:
@@ -21,22 +21,11 @@ body:
     validations:
       required: true
 
-  - type: dropdown
-    id: version
+  - type: input
+    id: App
     attributes:
-      label: Version
-      description: Which version are you using?
-      options:
-        - Version 1.0
-        - Version 2.0
+      label: App
+      description: What app was this bug or fix noted in?
+      placeholder: ...
     validations:
-      required: true
-
-  - type: checkboxes
-    id: browsers
-    attributes:
-      label: Browsers
-      description: Which browsers did the bug occur in?
-      options:
-        - label: Chrome
-        - label: Firefox
+      required: false
