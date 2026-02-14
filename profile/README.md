@@ -9,6 +9,4 @@
 - 📋 **Manage** — CRM, project management, ticketing, and client portals built for agencies
 - 🔗 **Integrate** — Connect with WordPress, Webflow, Shopify, and leading cloud services
 
-Based in Melbourne, Australia 🇦🇺
-
 🌐 [platfio.com](https://platfio.com)
